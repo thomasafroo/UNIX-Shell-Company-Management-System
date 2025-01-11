@@ -40,10 +40,12 @@ UNIX-SHELL
 To compile the program, use the included `Makefile`. Simply run:
 
 ```
-bash
 make
 ```
 
-This will generate the executable file named main.
+This will generate the executable file named main. Now run:
+```
+./main
+```
 
 
