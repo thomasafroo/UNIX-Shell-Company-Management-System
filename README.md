@@ -39,8 +39,10 @@ UNIX-SHELL
 ## Compilation
 To compile the program, use the included `Makefile`. Simply run:
 
-```bash``
-make```
+```
+bash
+make
+```
 
 This will generate the executable file named main.
 
