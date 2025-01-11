@@ -1,4 +1,4 @@
-# Shell Management System
+# Unix Shell Company Management System
 
 ## Description
 The Shell Management System is a command-line application written in C that simulates a company's management system. It allows users to manage companies, positions, and employees with various commands.
