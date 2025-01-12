@@ -42,13 +42,13 @@ UNIX-SHELL
 ## Compilation
 To compile the program, use the included `Makefile`. Simply run:
 
-```
+`
 make
-```
+`
 
 This will generate the executable file named `program`. Now run:
-```
-./program `make` run
-```
+
+`./program` or `make run`
+
 
 
