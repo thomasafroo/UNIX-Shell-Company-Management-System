@@ -19,9 +19,17 @@ employee.o: employee.c employee.h position.h
 position.o: position.c position.h
 	$(CC) $(CFLAGS) -c position.c
 
+# Run the program and generate code coverage data
+run: program
+	./program
+
+# Generate a coverage report
+# coverage: run
+# 	gcov main.c company.c employee.c position.c
+
 clean:
 ifeq ($(OS),Windows_NT)
 	del *.o program *.gcda *.gcno *.info 2>nul || exit 0
 else
-	rm -f *.o program *.gcda *.gcno *.info
+	rm -f *.o program *.gcda *.gcno *.c.gcov *.info
 endif
