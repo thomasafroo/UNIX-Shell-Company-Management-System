@@ -46,9 +46,9 @@ To compile the program, use the included `Makefile`. Simply run:
 make
 ```
 
-This will generate the executable file named `main`. Now run:
+This will generate the executable file named `program`. Now run:
 ```
-./main
+./program
 ```
 
 
