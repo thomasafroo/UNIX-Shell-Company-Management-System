@@ -23,14 +23,14 @@ This project was built to demonstrate modular programming, file organization, an
 ## File Structure
 ```
 UNIX-SHELL
-  ├── company.c Implementation of company-related functions 
-  ├── company.h Header file for the company module 
-  ├── employee.c Implementation of employee-related functions
-  ├── employee.h Header file for the employee module
+  ├── company.c   Implementation of company-related functions 
+  ├── company.h   Header file for the company module 
+  ├── employee.c  Implementation of employee-related functions
+  ├── employee.h  Header file for the employee module
   ├── position.c  Implementation of position-related functions
-  ├── position.h Header file for the position module
-  ├── main.c Main program logic and command parser
-  ├── Makefile Build automation file 
+  ├── position.h  Header file for the position module
+  ├── main.c      Main program logic and command parser
+  ├── Makefile    Build automation file 
   └── README.md
 ```
 ## Requirements
