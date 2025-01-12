@@ -20,4 +20,8 @@ position.o: position.c position.h
 	$(CC) $(CFLAGS) -c position.c
 
 clean:
-	rm -f *.o program
+ifeq ($(OS),Windows_NT)
+	del *.o program *.gcda *.gcno *.info 2>nul || exit 0
+else
+	rm -f *.o program *.gcda *.gcno *.info
+endif
