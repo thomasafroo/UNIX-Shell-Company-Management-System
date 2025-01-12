@@ -50,5 +50,6 @@ This will generate the executable file named `program`. Now run:
 
 `./program` or `make run`
 
-
+---
+Feel free to reach out for any questions or suggestions regarding this project!
 
