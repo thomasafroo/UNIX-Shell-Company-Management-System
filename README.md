@@ -48,7 +48,7 @@ make
 
 This will generate the executable file named `program`. Now run:
 ```
-./program ```or``` make run
+./program `make` run
 ```
 
 
