@@ -84,7 +84,6 @@ void parseCommand(char *input) {
     while (getchar() != '\n');
 }
 
-
 int main() {
     char input[MAX_INPUT_SIZE];
 

@@ -16,7 +16,7 @@ typedef struct Company {
     int id;
     char name[50];
     char location[50];
-    char industry[30];
+    char industry[50];
 } Company;
 
 // Grouping the parts together
