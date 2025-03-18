@@ -1,10 +1,10 @@
-# Unix Shell Company Management System
+# UNIX Shell Company Management System
 
 ## Motive 
 While taking software construction and data structures courses in second year, I was independently learning about Unix shells, and wanted to model a real-world construct with these areas of knowledge. Thus, I sought to design a company management system where users could keep track of information at different levels in a company's hierarchy.
 
 ## Description
-The Unix Shell Company Management System is a command-line interface written in C that simulates a company's management system. It allows users to manage companies, positions, and employees with various commands.
+The UNIX Shell Company Management System is a command-line interface written in C that simulates a company's management system. It allows users to manage companies, positions, and employees with various commands.
 
 This project was built to demonstrate modular programming, file organization, and efficient resource management in C.
 
